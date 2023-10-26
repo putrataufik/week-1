@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-color: rgb(13, 15, 36) ;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    height: 100vh;
+  }
+
+/* Form Container */
+.Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; /* Tengahkan elemen-elemen di dalam form */
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .Form h1 {
+    font-size: 24px; /* Ganti ukuran font sesuai preferensi Anda */
+    margin-bottom: 20px;
+  }
+  
+  .FormCountainer {
+    width: 100%;
+    max-width: 400px; /* Sesuaikan dengan lebar maksimum yang Anda inginkan */
+    padding: 10px;
+  }
+  
+  /* Form Labels */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Form Inputs */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
